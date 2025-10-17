@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(216, 11%, 91%);
+}
+
+img {
+    border-radius: 50%;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    background-color: cadetblue;
+    border-color: black;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #72777d;
+    border-color: #72777d;
+}
+
+h1, h2 {
+    color: #040303;
+    text-align: center;
+}
+
+
+
+
+
+
+
